@@ -5,7 +5,7 @@ This project is a comprehensive implementation of the classic game, Tetris, buil
 
 The project's structure is well-organized, with each TypeScript class encapsulated in its own file within the src/ directory. This modular approach enhances readability and maintainability, making it easier to understand the functionality of each component.
 
-The App class, located in app.ts, serves as the main entry point of the game. It is responsible for initializing the game, setting up event listeners for user input, and managing the game loop. This class essentially orchestrates the entire game, ensuring that all components work together seamlessly.
+The **App class**, located in app.ts, serves as the main entry point of the game. It is responsible for initializing the game, setting up event listeners for user input, and managing the game loop. This class essentially orchestrates the entire game, ensuring that all components work together seamlessly.
 
 The Tetris class, found in Tetris.ts, encapsulates the core game logic. It manages the game grid and the current Tetromino, and checks for game over conditions. This class is the heart of the game, dictating the rules and mechanics of Tetris.
 
