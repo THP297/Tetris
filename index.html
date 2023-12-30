@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="grid-container">
+    
+        </div>
+
+        <div id="right-sidebar">
+            <img src="./image/score.png" alt="score">
+            <p id="score">0</p>
+            <img src="./image/tetris.png" alt="tetris">
+        </div>
+    </div>
+
+    <div id="instruction">
+        <!-- close button -->
+        <div style="width: 100%;">
+            <button id="instruction-close">X</button>
+        </div>
+        <!-- content -->
+        <div id="instruction-content">
+            <div>
+                <img style="width: 200px; padding: 10px;" src="./image/instruction.png" alt="instruction">
+            </div>  
+            <div style="text-align: center;">
+                <p>Move left: Left Arrow</p>
+                <p>Move right: Right Arrow</p>
+                <p>Rotate: Up Arrow</p>
+                <p>Move down: Down Arrow</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="result">
+        <!-- close button -->
+        <div style="width: 100%;">
+            <button id="result-close">X</button>
+        </div>
+        <!-- content -->
+        <div id="result-content">
+            <div>
+                <img style="width: 200px; padding: 10px;" src="./image/instruction.png" alt="instruction">
+            </div>
+            <div style="text-align: center;">
+                <p id="final-score"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="./dist/app.js"></script>
+</body>
+</html>

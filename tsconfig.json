@@ -1,0 +1,15 @@
+// config typescript to import module
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "target": "es6", // or "es5" if needed
+    "module": "es6", // or "commonjs" or other module system
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true, // Enable compatibility with CommonJS imports
+    // Other compiler options...
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
